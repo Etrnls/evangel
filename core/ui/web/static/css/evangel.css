@@ -1,0 +1,25 @@
+#transfer {
+	padding: 5px;
+}
+
+#transfer-toolbar {
+	font-size: .6em;
+}
+
+#action-container {
+	display: inline-block;
+}
+
+#search-container {
+	padding: 3px 0;
+	border-color: #999999 #CCCCCC #CCCCCC;
+	border-spacing: 0;
+	border-style: solid;
+	border-width: 1px;
+	width: 30em;
+	display: inline-block;
+}
+
+#search {
+	border: medium none;
+}

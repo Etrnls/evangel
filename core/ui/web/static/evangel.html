@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8;" />
+
+	<link rel="stylesheet" type="text/css" href="css/cupertino/jquery-ui-1.8.10.custom.css" />	
+	<link rel="stylesheet" type="text/css" href="css/ui.jqgrid.css" />
+	<link rel="stylesheet" type="text/css" href="css/evangel.css" />	
+	<script type="text/javascript" src="js/jquery-1.5.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.8.10.custom.min.js"></script>
+	<script type="text/javascript" src="js/i18n/grid.locale-en.js"></script>
+	<script type="text/javascript" src="js/jquery.jqGrid.min.js"></script>
+	<script type="text/javascript" src="js/evangel.js"></script>
+</head>
+
+<body>
+	<div id="main-tab">
+		<ul>
+			<li><a href="#transfer">Transfer</a></li>
+			<li><a href="#statistic">Statistic</a></li>
+			<li><a href="#option">Option</a></li>
+		</ul>
+		
+		<div id="transfer">
+			<div id="transfer-toolbar">
+				<div id="action-container">
+					<button id="new-transfer">New</button>
+					<button id="start-transfer">Start</button>
+					<button id="pause-transfer">Pause</button>
+					<button id="stop-transfer">Stop</button>
+					<button id="remove-transfer">Remove</button>
+				</div>
+				<div id="search-container">
+					<div id="filter-container">
+					</div>
+					<div id="search-input">
+						<input id="search" type="text" />
+					</div>
+				</div>
+			</div>
+			<table id="transfer-list"></table>
+		</div>
+
+		<div id="statistic">
+		</div>
+
+		<div id="option">
+		</div>
+	</div>
+</body>
+
+</html>

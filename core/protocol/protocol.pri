@@ -1,0 +1,6 @@
+include(bt/bt.pri)
+include(http/http.pri)
+include(ftp/ftp.pri)
+include(flashget/flashget.pri)
+include(qqdownload/qqdownload.pri)
+include(thunder/thunder.pri)
